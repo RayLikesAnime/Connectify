@@ -6,61 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="connectify.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
-<body class="xyz">
-    <header class="text-gray-600 body-font">
+<body  background="b2.jpg" >
+    <header class="text-black text-2xl body-font">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <img src="download.png" width="100" height="100" >
+          <a class="flex title-font font-medium items-center text-black mb-4 md:mb-0 ">
+          <img src="logo3.png" width="100" height="100" >
             <span class="ml-3 text-xl">Connectify</span>
           </a>
           <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
             <a href="#cities" class="mr-5 hover:text-gray-900">Find Room</a>
-            <a class="mr-5 hover:text-gray-900">Find Roommate</a>
-            <a class="mr-5 hover:text-gray-900">Find Room and Roommate</a>
-            <a class="mr-5 hover:text-gray-900">About Us</a>
+            <a href="interest.html" class="mr-5 hover:text-gray-900">Find Roommate</a>
+            <a href="chats.html" class="mr-5 hover:text-gray-900">Chats</a>
+            <a href="#aboutus" class="mr-5 hover:text-gray-900">About Us</a>
           </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">&nbsp;&nbsp;&nbsp;&nbsp;Sign In
+          <button onclick="window.location.href = 'login.html';" class="inline-flex items-center bg-indigo-600 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-500 rounded text-base mt-4 md:mt-0">&nbsp;&nbsp;&nbsp;&nbsp;Login
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
             </svg>
           </button>
           &nbsp;&nbsp;&nbsp;
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">&nbsp;&nbsp;&nbsp;&nbsp;Sign Up
+          <button onclick="window.location.href = 'signup.html';" class="inline-flex items-center bg-indigo-600 border-0 py-1 px-3 focus:outline-none hover:bg-indigo-500 rounded text-base mt-4 md:mt-0">&nbsp;&nbsp;&nbsp;&nbsp;Sign Up
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
             </svg>
           </button>
         </div>
       </header>
-      <section class="text-gray-600 body-font">
+      <section class="text-black body-font">
         <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <img class="object-cover object-center rounded" alt="hero" src="roommate.jpg" width="720" height="600">
           </div>
           <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Find your dream Room and Roommate at the same place
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">Find your dream Room and Roommate at the same place
             </h1>
-            <p class="mb-8 leading-relaxed">Connectify offers a smooth and hassle-free hotels booking process at the lowest prices. Visit the Connectify website or app and enter the city name, check-in and check-out date and room requirements under the hotel section. A range of hotels from luxury to budget ones will be displayed.</p>
+            <p class="mb-8 text-leading-relaxed text-xl">Connectify offers a smooth and hassle-free hotels booking process at the lowest prices. Visit the Connectify website or app and enter the city name, check-in and check-out date and room requirements under the hotel section. A range of hotels from luxury to budget ones will be displayed.</p>
             
           </div>
         </div><
       </section>
-      <section id="cities" class="text-gray-600 body-font">
+      <section id="cities" class="text-black body-font">
         <div class="container px-5 py-25 mx-auto"><
             <div class="flex flex-col">
                 <div class="container px-0 py-0 mx-auto">
                     <div class=class="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"">Select the city</h1>
+                      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-black"">Popular Destinations</h1>
                     </div>
                   </div>
                 </div>
         </div>
       </section>
-      <section class="text-gray-600 body-font">
+      <section class="text-black body-font">
         <div class="container px-5 py-20 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="imambada.jpg" width="420" height="260">
               </a>
               <div class="mt-4">
@@ -69,7 +69,7 @@
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="india gate.jpg" width="421" height="261">
               </a>
               <div class="mt-4">
@@ -78,7 +78,7 @@
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="random 1.jpg" width="422" height="262">
               </a>
               <div class="mt-4">
@@ -87,7 +87,7 @@
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="random 2.jpg" width="423" height="263">
               </a>
               <div class="mt-4">
@@ -96,7 +96,7 @@
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="random 3.jpg" width="424" height="264">
               </a>
               <div class="mt-4">
@@ -105,7 +105,7 @@
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="red fort.jpg" width="425" height="265">
               </a>
               <div class="mt-4">
@@ -114,7 +114,7 @@
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="taj mahal.jpg" width="427" height="267">
               </a>
               <div class="mt-4">
@@ -123,7 +123,7 @@
               </div>
             </div>
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-              <a class="block relative h-48 rounded overflow-hidden">
+              <a href="rooms.html" class="block relative h-48 rounded overflow-hidden">
                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="victoria.jpg" width="428" height="268">
               </a>
               <div class="mt-4">
@@ -137,12 +137,145 @@
             <div class="flex flex-col">
                 <div class="container px-0 py-0 mx-auto">
                     <div class=class="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                        <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">More Cities +</button>
+                        <button class="flex-shrink-0 text-white bg-indigo-900 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">More Cities </button>
                     </div>
                   </div>
                 </div>
         </div>
         </div>
       </section>
+
+      <section id="faq" class="text-black body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-3xl font-medium title-font mb-4 text-indigo-900">Frequently Asked Questions (FAQs) <br><br></h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Q
+              What are the advantages of online hotel booking?
+              <br><br>
+              A Online hotel booking comes with great advantages for travellers.
+              
+              You can book hotels in India or even International hotels sitting at home in few simple clicks
+              You can quickly check reviews, images, ratings and amenities of all the hotels at one place and compare hotels to suit your preferences for hotel booking
+              You can avail great discounts and offers on hotel booking through Goibibo
+              Avoiding the last-minute hotel search in an unknown city with high prices, you can book a suitable stay for yourself at reasonable prices online
+              You can avail attractive deals and cashback offers on digital payment options like credit cards, debit cards and e-wallets
+              You can customize your hotel to stay with plenty of room plans available
+              You can read the hotel policies online and experience a hassle-free stay.
+              <br><br><br>
+              Q
+              Is online hotel booking safe and reliable?
+              <br><br>
+              A
+              Being an easy and time-effective process, online hotel booking is widely preferred. Booking Hotels online is safe and reliable, provided that you rely on a reputed travel website for your online hotel bookings. Goibibo is a trustworthy online hotel booking platform which has numerous filters to help you choose the best and most suitable hotel as per your budget and preference. You can go through the star ratings, reviews and travellers' images of a particular hotel to make the best decision. Goibibo also offers 'Gostays accommodations' that come with a money-back guarantee. Gostays accommodations include free wifi, AC, breakfast, TV and good hygiene. Thus, you can always choose 'Gostays accommodations' at your convenience.
+              <br><br><br>
+              Q
+              Is it ok to choose 'Pay at hotel' option for an online hotel booking?
+              <br><br>
+              A
+              Like prepaid bookings, pay at hotel option is also safe and reliable. It's free of cost. Though, the added advantage of choosing pay at hotel option is that you get the privilege of cancelling the hotel if you don't like its quality. However, it is important to go through all the booking and cancellation related terms and conditions carefully.
+              <br><br><br>
+              Q Is it okay to choose a roommate online ?
+              <br><br>
+              A Yes it's completely safe as all our customers are verified by our systems.Furthermore you can talk and know more about them.
+              </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-900 body-font" id="aboutus">
+        <div class="container px-5 py-24 mx-auto">
+          <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center">Testimonials/Our Team</h1>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">Hope you liked it</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="chuuya.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Keshav Pandey</span>
+                    <span class="text-gray-900 text-sm">UI Developer</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/2 w-full">
+              <div class="h-full bg-gray-100 p-8 rounded">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="leading-relaxed mb-6">It was a great experience</p>
+                <a class="inline-flex items-center">
+                  <img alt="testimonial" src="dazai.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                  <span class="flex-grow flex flex-col pl-4">
+                    <span class="title-font font-medium text-gray-900">Aastha</span>
+                    <span class="text-gray-900 text-sm">UI Developer</span>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="text-black body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center order-first">
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-black tracking-widest text-sm mb-3">OUR PRODUCTS</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-black hover:text-gray-800">Domestic Hotels</a>
+                </li>
+                <li>
+                  <a class="text-black hover:text-gray-800">International Hotels</a>
+                </li>
+                <li>
+                  <a class="text-black hover:text-gray-800">Find Roommates</a>
+                </li>
+                <li>
+                  <a class="text-black hover:text-gray-800">Hotel Booking</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-black tracking-widest text-sm mb-3">COMPANY</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a href=#aboutus class="text-black hover:text-gray-800">About Us</a>
+                </li>
+                <li>
+                  <a class="text-black hover:text-gray-800">Terms and Conditions</a>
+                </li>
+                <li>
+                  <a class="text-black hover:text-gray-800">Careers</a>
+                </li>
+                <li>
+                  <a href=#faq class="text-black hover:text-gray-800">FAQs</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-black tracking-widest text-sm mb-3">Trending Places</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-black hover:text-gray-800">Lucknow</a>
+                </li>
+                <li>
+                  <a class="text-black hover:text-gray-800">New Delhi</a>
+                </li>
+                <li>
+                  <a class="text-black hover:text-gray-800">Chandigarh</a>
+                </li>
+                  <a class="text-black hover:text-gray-800">Mumbai</a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        
+      </footer>
 </body>
 </html>
